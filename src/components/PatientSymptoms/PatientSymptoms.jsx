@@ -157,7 +157,7 @@ function PatientSymptoms({ patientsMirror, setPatientsMirror }) {
               classes={{ root: classes.menuItem }}
               labelId="demo-simple-select-autowidth-label"
               id="demo-simple-select-autowidth"
-              autoWidth
+              fullWidth
               value={patientsMirror[`${id}finalAcuity`]}
               onChange={(event) =>
                 submitValue({

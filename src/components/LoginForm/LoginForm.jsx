@@ -117,6 +117,13 @@ function LoginForm() {
               label="Password"
               type="password"
             />
+            {/* Added so that spectators can  */}
+            <p>*******For this example deployment only*******</p>
+            <p>Please Register a new user to access the form</p>
+            <p>To see Admin view, log in as sample Admin:</p>
+            <p>Username: Admin</p>
+            <p>Password: Admin001</p>
+
             {/* login button */}
             <Box className={globalStyle.btnArea}>
               <Button
